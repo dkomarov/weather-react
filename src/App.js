@@ -7,6 +7,8 @@ const api = {
 
 function App() {
 
+  console.log(api)
+  
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
 
